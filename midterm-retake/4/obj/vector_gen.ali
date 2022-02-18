@@ -1,0 +1,120 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U vector_gen%b		vector_gen.adb		449670d5 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U vector_gen%s		vector_gen.ads		b60bf505 BN EE NE OO PK GE
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+D vector_gen.ads	20220110155010 b60bf505 vector_gen%s
+D vector_gen.adb	20220110155734 5c6950bd vector_gen%b
+G a e
+G c Z s b [vector_gen standard 3 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 30|1r6 2r5
+X 9 a-textio.ads
+58K13*Text_IO 725e16 30|1w10 2r9
+262U14*New_Line 30|32s7
+463U14*Put 30|30s10
+X 29 vector_gen.ads
+2E9 Elem 6r45 11r40 12r39 14r45 15r49 23r46 30|4r45 30r14 35r40 40r39 52r45
+. 64r49
+3k9*Vector_Gen 2z9 23E9 32l5 32e15 30|3b14 126l5 126t15
+4I12*Length{positive} 5r21 25r25
+5R9*Vector 5d16 6r31 7r28 8r24 9r33 11r25 12r24 13r28 14r31 15r35 18r34 19r34
+. 20r28 21r30 25c12 29e20 30|4r31 12r24 17r28 27r33 35r25 40r24 46r28 52r31
+. 64r35 79r34 98r34 106r29 122r30
+5i16 Max{4I12} 25r20 27r30 30|6r24 80r29
+6U14*insert 6=21 6>39 30|4b14 10l8 10t14 102s10
+6r21 V{5R9} 30|4b21 6r10 6r22 7m10 7r23 8m10 8r18
+6*39 item{2E9} 30|4b39 8r32
+7U14*pop 7=18 30|17b14 25l8 25t11
+7r18 V{5R9} 30|17b18 20r10 23m10 23r23
+8V13*size{natural} 8>18 30|12b13 15l8 15t12 108s15 108s26
+8r18 V{5R9} 30|12b18 14r14
+9U14*print_vector 9>27 30|27b14 33l8 33t20
+9r27 V{5R9} 30|27b27 29r19 30r25
+11V13*first{2E9} 11>19 30|35b13 38l8 38t13
+11r19 V{5R9} 30|35b19 37r14
+12V13*last{2E9} 12>18 30|40b13 43l8 43t12
+12r18 V{5R9} 30|40b18 42r14 42r22
+13V13*is_empty{boolean} 13>22 30|46b13 49l8 49t16
+13r22 V{5R9} 30|46b22 48r14
+14U14*remove 14=21 14>39 30|52b14 62l8 62t14 69s13
+14r21 V{5R9} 30|52b21 54r19 55r13 56m13 56r26 57r25 58m16 58r30
+14*39 item{2E9} 30|52b39 55r26
+15U14*remove_all 15=25 15>43 30|64b14 74l8 74t18
+15r25 V{5R9} 30|64b25 67r18 68r13 69m20
+15*43 item{2E9} 30|64b43 68r26 69r23
+18U14*swap 18=19 18=23 30|79b14 95l8 95t12
+18r19 V1{5R9} 30|79b19 80r26 82r32 83r24 87m11 91r19
+18r23 V2{5R9} 30|79b23 86r19 87r26 92m11
+19U14*join 19=19 19=23 30|98b14 104l8 104t12
+19r19 V1{5R9} 30|98b19 102m17
+19r23 V2{5R9} 30|98b23 101r32 102r21
+20V13*compare{boolean} 20>21 20>25 30|106b13 120l8 120t15
+20r21 V1{5R9} 30|106b21 108r20 112r32 113r18
+20r25 V2{5R9} 30|106b25 108r31 113r32
+21U14*clear 21=20 30|122b14 125l8 125t13
+21r20 V{5R9} 30|122b20 124m6
+23A9 TArray(2E9)<integer> 27r20 30|80r16
+27a13 Value{23A9} 30|8m12 30r27 37r16 42r16 55r15 58m18 58r32 68r15 83r27
+. 87m14 87r29 92m14 102r24 113r21 113r35
+28i13 Pointer{natural} 30|6r12 7m12 7r25 8r20 14r16 20r12 23m12 23r25 29r21
+. 42r24 48r16 54r21 56m15 56r28 57r27 67r20 82r35 86r22 91r22 101r35 112r35
+. 124m8
+X 30 vector_gen.adb
+18X7 Stack_Underflow_Exception 21r16
+29i11 I{integer} 30r33
+54i11 I{integer} 55r21 57r22
+57i17 J{integer} 58r24 58r38
+65i8 I{positive} 67r13 68r21 71m13 71r18
+80a7 tempArr{29|23A9} 83m10 92r26
+82i11 i{integer} 83r18 83r33
+86i11 I{integer} 87r20 87r35
+91i11 I{integer} 92r20 92r34
+99i7 G{positive}
+101i11 I{integer} 102r30
+112i11 I{integer} 113r27 113r41
+

@@ -1,0 +1,30 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U more_than%b		more_than.adb		6cc0bfde NE OO SU GE
+
+U more_than%s		more_than.ads		cd543d3c BN EE NE OO GE
+
+D more_than.ads		20211019222728 cd543d3c more_than%s
+D more_than.adb		20211019222810 a19482e2 more_than%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [more_than standard 4 13 none]
+X 1 more_than.ads
+2E9 Index 3r23 3r38
+3A9 Grid(natural)<2E9><2E9> 4r26 2|1r23
+4v13*More_Than 4>23 4>32 2|1b10 13l5 13t14
+4*23 G{3A9} 2|1b20 4r13 5r16 6r13 9r27
+4i32 Max{natural} 2|1b29 6r23
+X 2 more_than.adb
+2i4 count{natural} 7r20 9m10 9r19 12r11
+4e8 I 6r15 9r29
+5e11 J 6r18 9r32
+

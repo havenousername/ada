@@ -1,0 +1,47 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U stackgen%b		stackgen.adb		78f0e8b0 NE OO PK GE
+
+U stackgen%s		stackgen.ads		78ca3ebd BN EE NE OO PK GE
+
+D stackgen.ads		20211105084446 78ca3ebd stackgen%s
+D stackgen.adb		20211105085724 003ad60d stackgen%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [stackgen standard 4 9 none]
+X 1 stackgen.ads
+3+9 Elem 9r42 10r42 12r34 18r46 2|3r42 13r42 23r34
+4k9*Stackgen 3z9 18E9 23l5 23e13 2|1b14 47l5 47t13
+5R9*Stack 5d15 9r29 10r28 12r20 13r25 14r24 15r21 19c9 22e14 2|3r29 13r28
+. 23r20 31r24 36r25 41r21
+5i15 Max{positive} 19r15 20r23 2|33r28
+7X4*Empty_Stack 2|16r16 28r38
+7X17*Full_Stack 2|6r16
+9U14*Push 9=19 9>36 2|3b14 11l8 11t12
+9r19 V{5R9} 2|3b19 5r18 9m7 9r20 10m7 10r14
+9*36 E{3+9} 2|3b36 10r28
+10U14*Pop 10=18 10<35 2|13b14 21l8 21t11
+10r18 V{5R9} 2|13b18 15r19 19r16 20m7 20r20
+10*35 E{3+9} 2|13b35 19m7
+12V13*Top{3+9} 12>17 2|19s12 23b13 29l8 29t11
+12r17 V{5R9} 2|23b17 25r14 25r21
+13V13*Is_Empty{boolean} 13>22 2|15s10 36b13 39l8 39t16
+13r22 V{5R9} 2|36b22 38r14
+14V13*Is_Full{boolean} 14>21 2|5s10 31b13 34l8 34t15
+14r21 V{5R9} 2|31b21 33r14 33r26
+15V13*Size{natural} 15>18 2|41b13 44t7
+15r18 V{5R9} 2|41b18 43r14
+18A9 TArray(3+9)<integer> 20r13
+20a7 Data{18A9} 2|10m9 25r16
+21i7 Pointer{natural} 2|9m9 9r22 10r16 20m9 20r22 25r23 33r16 38r16 43r16
+

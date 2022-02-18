@@ -1,0 +1,84 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U setq%b		setq.adb		c031a77b NE OO PK
+W gcd%b			gcd.adb			gcd.ali
+W lcm%b			lcm.adb			lcm.ali
+
+U setq%s		setq.ads		26671a6b EE NE OO PK
+
+D gcd.adb		20211008071958 4d6c7fc2 gcd%b
+D lcm.adb		20211008073306 b87f6fd8 lcm%b
+D setq.ads		20211008074106 26671a6b setq%s
+D setq.adb		20211008074106 1345ad0a setq%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [numerator setq 5 14 none]
+G c Z s b [denominator setq 6 14 none]
+G c Z s b [Odivide setq 8 14 none]
+G c Z s b [Odivide setq 9 14 none]
+G c Z s b [Odivide setq 10 14 none]
+G c Z s b [Omultiply setq 15 13 none]
+G c Z s b [Omultiply setq 16 13 none]
+G c Z s b [Oadd setq 18 13 none]
+G c Z s b [Oadd setq 19 13 none]
+G c Z s s [rationalIP setq 23 10 none]
+G r c none [Odivide setq 8 14 none] [gcd standard 1 10 none]
+G r c none [Odivide setq 9 14 none] [gcd standard 1 10 none]
+G r c none [Odivide setq 10 14 none] [gcd standard 1 10 none]
+G r c none [Omultiply setq 15 13 none] [gcd standard 1 10 none]
+G r c none [Omultiply setq 16 13 none] [gcd standard 1 10 none]
+G r c none [Oadd setq 18 13 none] [lcm standard 3 10 none]
+G r c none [Oadd setq 18 13 none] [gcd standard 1 10 none]
+G r c none [Oadd setq 19 13 none] [gcd standard 1 10 none]
+X 1 gcd.adb
+1V10*gcd{positive} 4|1w6 23s32
+X 2 lcm.adb
+3V10*lcm{positive} 4|2w6 48s85
+X 3 setq.ads
+1K9*Setq 23E10 28l5 28e9 4|4b14 74l5 74t9
+3R10*Rational 5r29 6r31 8r71 9r26 9r44 10r23 10r54 15r24 15r41 16r21 16r50
+. 18r24 18r41 19r21 19r50 23c10 26e34 4|6r29 11r31 17r12 30r71 35r26 35r44
+. 40r23 40r54 46r24 46r41 51r21 51r50 57r24 57r41 62r21 62r50
+5V14*Numerator{integer} 5>26 4|6b14 9t8
+5r26 R{3R10} 4|6b26 8r16
+6V14*Denominator{positive} 6>28 4|11b14 14t8
+6r28 R{3R10} 4|11b28 13r16
+8V15*"/"{3R10} 8>19 8>40 4|30b15 33t8
+8i19 Numerator{integer} 4|30b20 32r27
+8i40 Denominator{positive} 4|30b40 32r38
+9V15*"/"{3R10} 9>20 9>23 4|35b15 38t8
+9r20 X{3R10} 4|35b20 37r27 37r57
+9r23 Y{3R10} 4|35b23 37r41 37r73
+10V15*"/"{3R10} 10>20 10>33 4|40b15 43t8
+10r20 X{3R10} 4|40b20 42r27 42r41
+10i33 Y{positive} 4|40b33 42r57
+15V14*"*"{3R10} 15>18 15>21 4|57b14 60l9 60t11
+15r18 X{3R10} 4|57b18 59r24 59r68
+15r21 Y{3R10} 4|57b21 59r38 59r51
+16V14*"*"{3R10} 16>18 16>31 4|62b14 65l9 65t11
+16r18 X{3R10} 4|62b18 64r24 64r41
+16i31 Y{integer} 4|62b31 64r38
+18V14*"+"{3R10} 18>18 18>21 4|46b14 49l9 49t11
+18r18 X{3R10} 4|46b18 48r25 48r69 48r89
+18r21 Y{3R10} 4|46b21 48r39 48r55 48r104
+19V14*"+"{3R10} 19>18 19>31 4|51b14 54l9 54t11
+19r18 X{3R10} 4|51b18 53r24 53r38 53r57
+19i31 Y{integer} 4|51b31 53r54
+24i28*Numerator{integer} 4|8r18 37r29 37r75 42r29 48r27 48r57 53r26 59r26
+. 59r40 64r26
+25i28*Denominator{positive} 4|13r18 37r43 37r59 42r43 48r41 48r71 48r91 48r106
+. 53r40 53r59 59r53 59r70 64r43
+X 4 setq.adb
+16V14 Normalize{3|3R10} 16b14 16>26 16>46 28t8 32s16 37s16 42s16 48s15 53s14
+. 59s14 64s14
+16i26 Numerator{integer} 19r12 23r41 25r25
+16i46 Denominator{positive} 23r52 25r38
+23i17 H{positive} 25r35 25r50
+

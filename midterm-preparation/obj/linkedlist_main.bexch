@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__linkedlist_main.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-preparation\prep.gpr
+20211021202350 48027dfb4e569115a836df920973e4b8
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-preparation\obj\replace_g.o
+C:\Users\Andrei\Desktop\ada\midterm-preparation\obj\linkedlist.o
+C:\Users\Andrei\Desktop\ada\midterm-preparation\obj\linkedlist_main.o
+[GENERATED SOURCE FILES]
+b__linkedlist_main.ads
+b__linkedlist_main.adb
+b__linkedlist_main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\midterm-preparation\obj\
+-LC:\Users\Andrei\Desktop\ada\midterm-preparation\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

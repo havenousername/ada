@@ -1,0 +1,35 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U migrate%b		migrate.adb		7f5aa8ab NE OO SU GE IL
+
+U migrate%s		migrate.ads		8f8b5c54 BN EE NE OO GE IL
+
+D migrate.ads		20211019233624 8f8b5c54 migrate%s
+D migrate.adb		20211020000628 f0d1f4ff migrate%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [migrate standard 4 14 none]
+X 1 migrate.ads
+2E9 Index 3r23 3r38 2|12r23 12r53 13r22 13r45 15r26 15r55 16r20 16r44 17r26
+. 17r59 18r24 18r48 19r26 19r58 20r24 20r47
+3A9 Grid(natural)<2E9><2E9> 4r32 2|1r29
+4u14*migrate 4=22 4>38 2|1b11 29l5 29t12
+4*22 G{3A9} 2|1b19 3r13 4r16 5r13 7r33 9m16 9r27 12r34 12r51 13m20 13r43
+. 15r37 15r53 16m18 16r42 17r37 17r54 18m19 18r43 19r37 19r53 20m19 20r42
+4i38 Max{natural} 2|1b35 5r23 7r43 12r82 15r84 17r85 19r84
+X 2 migrate.adb
+3e8 I 5r15 7r35 9r18 9r29 12r19 12r64 13r33 13r56 15r22 15r66 16r31 16r55
+. 17r56 18r21 18r45 19r55 20r21 20r44
+4e11 J 5r18 7r38 9r21 9r32 12r68 13r37 13r60 15r70 16r35 16r59 17r22 17r70
+. 18r35 18r59 19r22 19r69 20r35 20r58
+7i16 Diff{natural} 9r37 12r73 13r65 15r75 16r64 17r76 18r65 19r75 20r64
+

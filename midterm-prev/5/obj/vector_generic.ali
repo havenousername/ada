@@ -1,0 +1,78 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U vector_generic%b	vector_generic.adb	1b5cbc68 NE OO PK GE IL
+
+U vector_generic%s	vector_generic.ads	e9579fc8 BN EE NE OO PK GE
+
+D system.ads		20210520051136 2ffa5114 system%s
+D vector_generic.ads	20220110092900 e9579fc8 vector_generic%s
+D vector_generic.adb	20220110091818 f20b23a0 vector_generic%b
+G a e
+G c Z s b [vector_generic standard 6 9 none]
+X 2 vector_generic.ads
+2+9 Elem 4r44 5r24 8r38 8r51 10r34 14r47 15r50 16r24 16r33 3|2r34 57r48 69r50
+. 70r10 84r24 84r33
+3E9 Index 4r25
+4A9 Vector(2+9)<3E9> 9r32 10r23 11r39 11r51 12r32 12r44 13r37 13r49 14r37
+. 15r35 17r21 17r33 3|2r23 13r39 13r51 25r32 25r44 44r37 44r49 57r37 69r35
+. 89r25 109r32
+5V18 Op{boolean} 5>21 3|17s35 29s17 35s39 48s39 74s57 86s14 86s28 94s13 100s13
+5*21 E{2+9}
+6k9*vector_generic 2z9 3z9 4z9 5z18 19l5 19e19 3|1b14 117l5 117t19
+8V21 Action{2+9} 8=28 3|112s17
+8*28 E{2+9}
+9u14*ForEach 9=22 3|109b14 114l8 114t15
+9*22 V{4A9} 3|109b22 111r16 112m9 112m24 112r24
+10V13*Exists{boolean} 10>20 10>31 3|2b13 11l8 11t14 17s13 35s17 48s17
+10*20 V{4A9} 3|2b20 4r16 5r13
+10*31 E{2+9} 3|2b31 5r20
+11V13*Count_Of_Intersection{natural} 11>35 11>47 3|13b13 22l8 22t29
+11*35 V1{4A9} 3|13b35 16r16 17r24 17r38
+11*47 V2{4A9} 3|13b47 17r20
+12V13*Count_Of_Union{natural} 12>28 12>40 3|25b13 41l8 41t22
+12*28 V1{4A9} 3|25b28 34r16 35r28 35r42
+12*40 V2{4A9} 3|25b40 26r27 28r16 29r20 35r24
+13V13*Count_Of_Difference{natural} 13>33 13>45 3|44b13 54l8 54t27
+13*33 V1{4A9} 3|44b33 47r16 48r28 48r42
+13*45 V2{4A9} 3|44b45 48r24
+14V13*Count_Of_Repetitions{natural} 14>34 14>45 3|57b13 67l8 67t28 74s13
+. 75s24
+14*34 V{4A9} 3|57b34 60r16 61r13
+14*45 E{2+9} 3|57b45 61r20
+15V13*Max_Of_Repetitions{2+9} 15>32 3|69b13 81l8 81t26
+15*32 V{4A9} 3|69b32 73r16 74r34 74r37 74r60 75r45 75r48 76r18
+16V13*Compare{boolean} 16>21 16>30 3|84b13 87l8 87t15
+16*21 A{2+9} 3|84b21 86r17
+16*30 B{2+9} 3|84b30 86r31
+17V14*"<"{boolean} 17>17 17>29 3|89b14 106l9 106t11
+17*17 V1{4A9} 3|89b17 93r16 94r16
+17*29 V2{4A9} 3|89b21 99r16 100r16
+X 3 vector_generic.adb
+4e11 I 5r15
+14i7 Counter{natural} 18m13 18r24 21r14
+16e11 I 17r27 17r41
+26i7 Counter{natural} 30m13 30r24 36m13 36r24 40r14
+28e11 I 29r23
+34e11 I 35r31 35r45
+45i7 Counter{natural} 49m13 49r24 53r14
+47e11 I 48r31 48r45
+58i7 Counter{natural} 62m13 62r24 66r14
+60e11 I 61r15
+70*7 E{2|2+9} 76m13 80r14
+71i7 Counter{natural} 74r45 75m13
+73e11 I 74r39 74r62 75r50 76r20
+90i7 CounterV1{natural} 95m13 95r26 105r14
+91i7 CounterV2{natural} 101m13 101r26 105r26
+93e11 I 94r19
+99e11 I 100r19
+111e11 I 112r11 112r26
+

@@ -1,0 +1,81 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U bags%b		bags.adb		705d6a7f NE OO PK GE IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W for_all%s		for_all.adb		for_all.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U bags%s		bags.ads		087968b5 BN EE NE OO PK GE IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D bags.ads		20211102193002 087968b5 bags%s
+D bags.adb		20211102193004 d4ada04f bags%b
+D for_all.ads		20211102190834 8d3b6a1d for_all%s
+D for_all.adb		20211014221824 b43abc32 for_all%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D text_io.ads		20210520051136 21b2c898 text_io%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [bags standard 3 9 none]
+X 11 bags.ads
+2E9 Elem 6r25 8r39 11r43 17r19 17r31 12|6r36 11r40 24r58
+3k9*bags 2z9 14E9 19l5 19e9 12|5b14 38l5 38t9
+4R9*Bag 8r28 9r42 11r32 12r38 16c9 18e14 12|6r28 11r32 16r42 29r38
+5I9*B_Natural<integer> 6r42 14c9 12|17r41 24r47
+6A9*BArray(5I9)<2E9> 17r12 12|24r64
+8U14*Add 8=18 8>33 12|6b14 9l8 9t11
+8r18 V{4R9} 12|6b18 8m7 8r19
+8*33 E{2E9} 12|6b33 8r13 8r25
+9U14*Remove_Duplicates 9=32 12|16b14 27l8 27t25
+9r32 V{4R9} 12|16b32 26m22 26r22
+11V13*Multiplicity{natural} 11>26 11>37 12|11b13 14l8 14t20
+11r26 V{4R9} 12|11b26 13r22
+11*37 E{2E9} 12|11b37 13r28
+12V13*Multiplicity_Count{natural} 12>32 12|29b13 36l8 36t26
+12r32 V{4R9} 12|29b32 32r19 33r38
+17a7 Bag{6A9} 12|8m9 8r21 13r24 26m24 32r21 33r40
+X 12 bags.adb
+17U17 set_to_one 17b17 17=28 22l11 22t21 24r72
+17i28 Item{11|5I9} 19r13 20m13
+24U17 set_all_to_one[13|6] 26s7
+30i7 Count{natural} 33m13 33r22 35r17
+32e14 I 33r44
+X 13 for_all.ads
+6u11*for_all 12|1w6 24r39
+X 32 text_io.ads
+24K9*Text_IO=24:29 12|2w6 3r5
+

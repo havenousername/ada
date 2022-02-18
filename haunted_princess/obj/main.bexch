@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr
+20211126084404 a30499e186acd5e98ea26a600b5d0a43
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\haunted_princess\obj\tools.o
+C:\Users\Andrei\Desktop\ada\haunted_princess\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\haunted_princess\obj\
+-LC:\Users\Andrei\Desktop\ada\haunted_princess\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

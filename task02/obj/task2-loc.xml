@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\task02\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 44" line=" 27" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\task02\src\monitor.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 14" line=" 95" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\task02\src\pub3.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

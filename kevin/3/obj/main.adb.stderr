@@ -1,0 +1,4 @@
+main.adb:18:13: error: loop or block statement must follow label
+main.adb:49:10: error: "end select;" expected for "select" at line 45
+main.adb:50:07: error: "end loop;" expected for "loop" at line 44
+main.adb:68:32: error: "=" should be ":="

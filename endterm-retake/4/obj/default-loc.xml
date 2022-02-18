@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 20" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\endterm-retake\4\default.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\endterm-retake\4\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 144" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\endterm-retake\4\default.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\endterm-retake\4\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\Andrei\Desktop\ada\endterm-retake\1\default.gpr</vfs_file>
+    <file_marker column=" 1" line=" 7">
+      <vfs_project  />
+      <vfs_file >C:\GNAT\2021\bin\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Users\Andrei\Desktop\ada\endterm-retake\1\default.gpr</vfs_project>
+      <vfs_file >C:\Users\Andrei\Desktop\ada\endterm-retake\1\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,61 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U vector_generic%b	vector_generic.adb	701342a6 NE OO PK GE IL
+
+U vector_generic%s	vector_generic.ads	db7db754 BN EE NE OO PK GE
+
+D system.ads		20210520051136 2ffa5114 system%s
+D vector_generic.ads	20220110084704 db7db754 vector_generic%s
+D vector_generic.adb	20220110085042 ab6ef5f2 vector_generic%b
+G a e
+G c Z s b [vector_generic standard 6 9 none]
+X 2 vector_generic.ads
+2+9 Elem 4r44 5r24 7r34 11r47 12r50 3|2r34 57r48 69r50 70r10
+3E9 Index 4r25
+4A9 Vector(2+9)<3E9> 7r23 8r39 8r51 9r32 9r44 10r37 10r49 11r37 12r35 3|2r23
+. 13r39 13r51 25r32 25r44 44r37 44r49 57r37 69r35
+5V18 Op{boolean} 5>21 3|17s35 29s17 35s39 48s39 74s57
+5*21 E{2+9}
+6k9*vector_generic 2z9 3z9 4z9 5z18 13l5 13e19 3|1b14 86l5 86t19
+7V13*Exists{boolean} 7>20 7>31 3|2b13 11l8 11t14 17s13 35s17 48s17
+7*20 V{4A9} 3|2b20 4r16 5r13
+7*31 E{2+9} 3|2b31 5r20
+8V13*Count_Of_Intersection{natural} 8>35 8>47 3|13b13 22l8 22t29
+8*35 V1{4A9} 3|13b35 16r16 17r24 17r38
+8*47 V2{4A9} 3|13b47 17r20
+9V13*Count_Of_Union{natural} 9>28 9>40 3|25b13 41l8 41t22
+9*28 V1{4A9} 3|25b28 34r16 35r28 35r42
+9*40 V2{4A9} 3|25b40 26r27 28r16 29r20 35r24
+10V13*Count_Of_Difference{natural} 10>33 10>45 3|44b13 54l8 54t27
+10*33 V1{4A9} 3|44b33 47r16 48r28 48r42
+10*45 V2{4A9} 3|44b45 48r24
+11V13*Count_Of_Repetitions{natural} 11>34 11>45 3|57b13 67l8 67t28 74s13
+. 75s24
+11*34 V{4A9} 3|57b34 60r16 61r13
+11*45 E{2+9} 3|57b45 61r20
+12V13*Max_Of_Repetitions{2+9} 12>32 3|69b13 81l8 81t26
+12*32 V{4A9} 3|69b32 73r16 74r34 74r37 74r60 75r45 75r48 76r18
+X 3 vector_generic.adb
+4e11 I 5r15
+14i7 Counter{natural} 18m13 18r24 21r14
+16e11 I 17r27 17r41
+26i7 Counter{natural} 30m13 30r24 36m13 36r24 40r14
+28e11 I 29r23
+34e11 I 35r31 35r45
+45i7 Counter{natural} 49m13 49r24 53r14
+47e11 I 48r31 48r45
+58i7 Counter{natural} 62m13 62r24 66r14
+60e11 I 61r15
+70*7 E{2|2+9} 76m13 80r14
+71i7 Counter{natural} 74r45 75m13
+73e11 I 74r39 74r62 75r50 76r20
+

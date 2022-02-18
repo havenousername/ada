@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-retake\5\default.gpr
+20220110144738 4c48bcc1a1f0e0b8649dd5ed8a8a7376
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-retake\5\obj\vector_gen.o
+C:\Users\Andrei\Desktop\ada\midterm-retake\5\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\midterm-retake\5\obj\
+-LC:\Users\Andrei\Desktop\ada\midterm-retake\5\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

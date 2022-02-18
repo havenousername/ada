@@ -1,0 +1,8 @@
+project Haunted_Princes is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("princess.adb", "tools.adb", "hauntedhouse.adb", "main.adb");
+
+end Haunted_Princes;
+

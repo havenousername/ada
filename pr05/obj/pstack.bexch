@@ -1,0 +1,22 @@
+[MAPPING FILE]
+C:\Users\Andrei\AppData\Local\Temp\GNAT-TEMP-000005.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2021
+[MAIN BASE NAME]
+pstack
+[COMPILER PATH]
+c:\gnat\2021\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+C:\Users\Andrei\Desktop\ada\pr05\obj\pstack.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\pr05\practice5.gpr
+20211008070516 8883e2b6fefe75d74cb1dec3d74b3ced

@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__more_than_demo.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-sample\sample.gpr
+20211019215734 36a2c8394b6d623693bc09144b7c6e0d
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-sample\obj\more_than.o
+C:\Users\Andrei\Desktop\ada\midterm-sample\obj\more_than_demo.o
+[GENERATED SOURCE FILES]
+b__more_than_demo.ads
+b__more_than_demo.adb
+b__more_than_demo.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\midterm-sample\obj\
+-LC:\Users\Andrei\Desktop\ada\midterm-sample\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

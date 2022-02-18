@@ -1,0 +1,2 @@
+populate.adb:5:26: error: expected type "Standard.Integer"
+populate.adb:5:26: error: found type "Index" defined at populate.ads:2

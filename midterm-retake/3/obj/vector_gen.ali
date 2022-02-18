@@ -1,0 +1,99 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U vector_gen%b		vector_gen.adb		3615c611 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U vector_gen%s		vector_gen.ads		f3c82544 BN EE NE OO PK GE
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+D vector_gen.ads	20220110145450 f3c82544 vector_gen%s
+D vector_gen.adb	20220110154300 6b293638 vector_gen%b
+G a e
+G c Z s b [vector_gen standard 3 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 30|1r6 2r5
+X 9 a-textio.ads
+58K13*Text_IO 725e16 30|1w10 2r9
+262U14*New_Line 30|32s7
+463U14*Put 30|30s10
+X 29 vector_gen.ads
+2E9 Elem 6r45 11r40 12r39 14r45 15r49 17r46 30|4r45 30r14 35r40 40r39 52r45
+. 68r49
+3k9*Vector_Gen 2z9 17E9 26l5 26e15 30|3b14 82l5 82t15
+4I12*Length{positive} 5r21 19r25
+5R9*Vector 5d16 6r31 7r28 8r24 9r33 11r25 12r24 13r28 14r31 15r35 19c12 23e20
+. 30|4r31 12r24 17r28 27r33 35r25 40r24 46r28 52r31 68r35
+5i16 Max{4I12} 19r20 21r30 30|6r24
+6U14*insert 6=21 6>39 30|4b14 10l8 10t14
+6r21 V{5R9} 30|4b21 6r10 6r22 7m10 7r23 8m10 8r18
+6*39 item{2E9} 30|4b39 8r32
+7U14*pop 7=18 30|17b14 25l8 25t11
+7r18 V{5R9} 30|17b18 20r10 23m10 23r23
+8V13*size{natural} 8>18 30|12b13 15l8 15t12
+8r18 V{5R9} 30|12b18 14r14
+9U14*print_vector 9>27 30|27b14 33l8 33t20
+9r27 V{5R9} 30|27b27 29r19 30r25
+11V13*first{2E9} 11>19 30|35b13 38l8 38t13
+11r19 V{5R9} 30|35b19 37r14
+12V13*last{2E9} 12>18 30|40b13 43l8 43t12
+12r18 V{5R9} 30|40b18 42r14 42r22
+13V13*is_empty{boolean} 13>22 30|46b13 49l8 49t16
+13r22 V{5R9} 30|46b22 48r14
+14U14*remove 14=21 14>39 30|52b14 66l8 66t14 73s13
+14r21 V{5R9} 30|52b21 55r19 56r13 57r21 58m16 58r29 61r25 62m16 62r30
+14*39 item{2E9} 30|52b39 56r26
+15U14*remove_all 15=25 15>43 30|68b14 78l8 78t18
+15r25 V{5R9} 30|68b25 71r18 72r13 73m20
+15*43 item{2E9} 30|68b43 72r26 73r23
+17A9 TArray(2E9)<integer> 21r20
+21a13 Value{17A9} 30|8m12 30r27 37r16 42r16 56r15 62m18 62r32 72r15
+22i13 Pointer{natural} 30|6r12 7m12 7r25 8r20 14r16 20r12 23m12 23r25 29r21
+. 42r24 48r16 55r21 57r23 58m18 58r31 61r27 71r20
+X 30 vector_gen.adb
+18X7 Stack_Underflow_Exception 21r16
+29i11 I{integer} 30r33
+55i11 I{integer} 56r21 57r16 61r22
+61i17 J{integer} 62r24 62r38
+69i8 I{positive} 71r13 72r21 75m13 75r18
+

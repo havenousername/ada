@@ -1,0 +1,105 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U bags%b		bags.adb		70353ea5 NE OO PK GE IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W for_all%s		for_all.adb		for_all.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U bags%s		bags.ads		c9f818a9 BN EE NE OO PK GE IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D bags.ads		20211101132356 c9f818a9 bags%s
+D bags.adb		20211018220810 598d1822 bags%b
+D for_all.ads		20211015214104 c1f2f6b6 for_all%s
+D for_all.adb		20211014221824 b43abc32 for_all%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D text_io.ads		20210520051136 21b2c898 text_io%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [bags standard 3 9 none]
+X 11 bags.ads
+2+9 Elem 6r46 9r39 10r43 12r51 12|6r40 16r36 37r40 62r51
+3k9*bags 2z9 20E9 26l5 26e9 12|5b14 96l5 96t9
+4R9*Bag 4d13 9r28 10r32 11r32 12r24 13r27 14r42 15r38 20c9 25e14 12|6r32
+. 16r28 37r32 48r32 62r24 68r27 75r42 86r38
+4i13 Max{positive} 20r13 22r23 23r31 12|20r25 24r25 51r25 55r19
+6A9*TArray(2+9)<integer> 22r13
+7A9*VArray(natural)<integer> 23r21 12|81r67
+9U14*Add 9=18 9>33 12|16b14 35l8 35t11
+9r18 V{4R9} 12|16b18 17r40 20r23 22r23 24r10 24r23 29m10 29r23 30m10 30r17
+. 31m10 31r25 33m10 33r37
+9*33 E{2+9} 12|16b33 17r43 30r31
+10V13*Multiplicity{natural} 10>26 10>37 12|37b13 46l8 46t20
+10r26 V{4R9} 12|37b26 38r40 43r17
+10*37 E{2+9} 12|37b37 38r43
+11V13*Multiplicity{natural} 11>26 11>37 12|48b13 60l8 60t20
+11r26 V{4R9} 12|48b26 51r23 55r17 59r14
+11i37 Ind{positive} 12|48b37 53r23 55r10 59r29
+12V13*Data{2+9} 12>18 12>29 12|62b13 65l8 65t12
+12r18 V{4R9} 12|62b18 64r13
+12i29 Ind{positive} 12|62b29 64r20
+13V13*Pointer{natural} 13>21 12|68b13 71t7
+13r21 V{4R9} 12|68b21 70r14
+14U14*Remove_Duplicates 14=32 12|75b14 84l8 84t25
+14r32 V{4R9} 12|75b32 83m22 83r22
+15V13*Multiplicity_Count{natural} 15>32 12|86b13 93l8 93t26
+15r32 V{4R9} 12|86b32 89r22 90r30
+17X4*Index_Out_Of_Bounds 12|25r16 56r16
+22a7 Data{6A9} 12|9r15 30m12 64r15
+23a7 Multiplicity{7A9} 12|31m12 33m12 33r39 43r19 59r16 83m24 90r32
+24i7 Pointer{natural} 12|8r21 22r25 24r12 29m12 29r25 30r19 31r27 70r16 89r24
+X 12 bags.adb
+6V13 getElemIndex{integer} 6b13 6>26 6>37 14l8 14t20 17s27 38s27
+6r26 V{11|4R9} 8r19 9r13
+6*37 E{11|2+9} 9r25
+8i11 I{integer} 9r20 10r20
+17i7 ElemInd{integer} 28r10 33r25 33r52
+18a7 Ex_Message{string} 25r41
+38i7 ElemInd{integer} 40r10 43r32
+49a7 Ex_Message{string} 56r41
+76U17 set_to_one 76b17 76=28 79l11 79t21 81r75
+76i28 Ind{natural} 78m10
+81U17 set_all_to_one[13|6] 83s7
+87i7 Count{natural} 90m13 90r22 92r17
+89i14 I{integer} 90r45
+X 13 for_all.ads
+6u11*for_all 12|1w6 81r39
+X 32 text_io.ads
+24K9*Text_IO=24:29 12|2w6 3r5
+

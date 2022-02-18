@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Andrei\Desktop\ada\endterm\2\endterm.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\endterm\2\endterm.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\endterm\2\src\endterm.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 115" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\endterm\2\endterm.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\endterm\2\src\endterm.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 9" line=" 9" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\endterm\2\endterm.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\endterm\2\src\endterm.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

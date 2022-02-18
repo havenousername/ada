@@ -1,0 +1,98 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		8456088f NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W stackgen%s		stackgen.adb		stackgen.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20211105085430 a4236afb main%b
+D stackgen.ads		20211105084446 78ca3ebd stackgen%s
+D stackgen.adb		20211105085724 003ad60d stackgen%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 4 11 none]
+G r i none [main standard 4 11 none] [stackgen standard 4 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r16 1r29 2r5 2r18
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 15|1w33 2r22
+X 10 a-textio.ads
+58K13*Text_IO 725e16 15|1w20 2r9
+262U14*New_Line 15|29s10
+463U14*Put 15|15s10 27s10 48s4
+506U14*Put_Line 15|20s13 32s13 36s10
+X 11 a-tiinio.ads
+59U14*Get 15|16s10[3|18] 37s10[3|18] 49s4[3|18]
+80U14*Put 15|28s10[3|18]
+X 15 main.adb
+4U11*Main 4b11 57l5 57t9
+5K12 IStacks[16|4] 6r8
+7i4 Max{integer} 49m8 51r16
+9U14 Menu 9b14 9=19 46l8 46t12 53s7
+9r19 V{16|5R9[5]} 39m30 40m30
+10i7 Parancs{integer} 37m14 38r15
+12U17 Insert 12b17 12=24 21l11 21t17 39s23
+12r24 V{16|5R9[5]} 17m15
+13i10 data{integer} 16m14 17r18
+23U17 Delete 23b17 23=24 33l11 33t17 40s23
+23r24 V{16|5R9[5]} 26m14
+24i10 data{integer} 26m17 28r14
+51r7 V{16|5R9[5]} 53m12 53r12
+X 16 stackgen.ads
+4k9*Stackgen 15|1w6 5r27 16|23e13
+5R9 Stack 15|9r29[5] 12r34[5] 23r34[5] 51r10[5]
+7X4 Empty_Stack 15|31r15[5]
+7X17 Full_Stack 15|19r15[5]
+9U14 Push 15|17s10[5]
+10U14 Pop 15|26s10[5]
+

@@ -1,0 +1,2 @@
+most_frequent.adb:19:16: warning: "Uniq_Array" may be referenced before it has a value [enabled by default]
+most_frequent.adb:20:34: warning: "Count_Array" may be referenced before it has a value [enabled by default]

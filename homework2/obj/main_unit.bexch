@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main_unit.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\homework2\default.gpr
+20211014210804 7b4b1e5ab9b729b348f89e3f052e0a9d
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\homework2\obj\for_all.o
+C:\Users\Andrei\Desktop\ada\homework2\obj\bags.o
+C:\Users\Andrei\Desktop\ada\homework2\obj\character_bag.o
+C:\Users\Andrei\Desktop\ada\homework2\obj\main_unit.o
+[GENERATED SOURCE FILES]
+b__main_unit.ads
+b__main_unit.adb
+b__main_unit.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\homework2\obj\
+-LC:\Users\Andrei\Desktop\ada\homework2\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

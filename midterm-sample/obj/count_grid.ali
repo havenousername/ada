@@ -1,0 +1,29 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U count_grid%b		count_grid.adb		bf15535c NE OO SU GE
+
+U count_grid%s		count_grid.ads		eae5f8a8 BN EE NE OO GE
+
+D count_grid.ads	20211019213854 eae5f8a8 count_grid%s
+D count_grid.adb	20211019213952 55f0abf4 count_grid%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [count_grid standard 4 13 none]
+X 1 count_grid.ads
+2E9 Index 3r23 3r39
+3A9 Grid(natural)<2E9><2E9> 4r28 2|1r25
+4v13*Count_Grid 4>24 2|1b10 11l5 11t15
+4*24 Gr{3A9} 2|1b21 4r13 5r16 6r31
+X 2 count_grid.adb
+2i4 counter{natural} 6m10 6r21 10r11
+4e8 I 6r34
+5e11 J 6r37
+

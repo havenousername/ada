@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__reversing.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\pr05\practice5.gpr
+20211008070516 8883e2b6fefe75d74cb1dec3d74b3ced
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\pr05\obj\pstack.o
+C:\Users\Andrei\Desktop\ada\pr05\obj\reversing.o
+[GENERATED SOURCE FILES]
+b__reversing.ads
+b__reversing.adb
+b__reversing.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\pr05\obj\
+-LC:\Users\Andrei\Desktop\ada\pr05\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-prev\1\vector.gpr
+20220110074100 bb3c30098f3358bf16ca8c1cc43451b5
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-prev\1\obj\vector_generic.o
+C:\Users\Andrei\Desktop\ada\midterm-prev\1\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\midterm-prev\1\obj\
+-LC:\Users\Andrei\Desktop\ada\midterm-prev\1\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

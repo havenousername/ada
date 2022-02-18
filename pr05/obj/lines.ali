@@ -1,0 +1,52 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U lines%b		lines.adb		db56a68b NE OO PK
+
+U lines%s		lines.ads		a61fd437 EE NE OO PK
+
+D lines.ads		20211008074242 a61fd437 lines%s
+D lines.adb		20211008074646 7d4972bc lines%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [hiext lines 7 17 none]
+G c Z s b [lopop lines 8 17 none]
+G c Z s b [lov lines 9 16 none]
+G c Z s b [is_empty lines 10 16 none]
+G c Z s b [is_full lines 11 16 none]
+G c Z s b [size lines 12 16 none]
+G c Z s s [tarrayIP lines 16 12 none]
+G c Z s s [queueIP lines 17 12 none]
+X 1 lines.ads
+1K9*Lines 16E12 23l5 23e10 2|1b14 40l5 40t10
+3I15*Elem{integer} 7r47 8r48 9r39 16r52 2|3r47 14r48 20r39
+5R12*Queue 5d19 7r34 8r34 9r24 10r29 11r28 12r25 17c12 21e46 2|3r34 14r34
+. 20r24 25r29 30r28 35r25
+5i19 Max{positive} 17r19 18r58 2|5r27 32r30
+7U17*Hiext 7=24 7>41 2|3b17 12t10
+7r24 S{5R12} 2|3b24 5r14 5r25 9m11 9r20 10m11 10r23 11m11 11r21
+7i41 E{3I15} 2|3b41 9r33
+8U17*Lopop 8=24 8<41 2|14b17 18t10
+8r24 S{5R12} 2|14b24 16r20 17m11 17r21
+8i41 E{3I15} 2|14b41 16m11
+9V16*Lov{3I15} 9>21 2|16s16 20b16 23t10
+9r21 S{5R12} 2|20b21 22r18 22r27
+10V16*Is_Empty{boolean} 10>26 2|25b16 28t10
+10r26 S{5R12} 2|25b26 27r23
+11V16*Is_Full{boolean} 11>25 2|30b16 33t10
+11r25 S{5R12} 2|30b25 32r23 32r28
+12V16*Size{natural} 12>22 2|27s18 32s18 35b16 38t10
+12r22 S{5R12} 2|35b22 37r18
+16A12 TArray(3I15)<integer> 18r48
+18a40*Adatok{16A12} 2|9m13 22r20
+19i40*Putter{positive} 2|5r16 9r22 10m13 10r25
+19i48*Getter{positive} 2|22r29
+20i40*Size{natural} 2|11m13 11r23 17m13 17r23 37r20
+

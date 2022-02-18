@@ -1,0 +1,22 @@
+[MAPPING FILE]
+C:\Users\Andrei\AppData\Local\Temp\GNAT-TEMP-000005.TMP
+[TOOLCHAIN VERSION]
+ada
+GNAT 2021
+[MAIN BASE NAME]
+tools
+[COMPILER PATH]
+c:\gnat\2021\bin\gcc.exe
+[COMPILER LEADING SWITCHES]
+-c
+-x
+ada
+-gnatA
+[MAIN DEPENDENCY FILE]
+C:\Users\Andrei\Desktop\ada\endterm\4\obj\tools.ali
+[DEPENDENCY FILES]
+[BINDING OPTIONS]
+gnatbind_prefix=
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\endterm\4\default.gpr
+20220110123508 1d3cad48a8bf2eb26f906c15056d74dd

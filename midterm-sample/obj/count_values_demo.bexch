@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__count_values_demo.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-sample\sample.gpr
+20211019224022 d26c8071cdd7d4df56d6c755ac2cdfb6
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-sample\obj\count_values.o
+C:\Users\Andrei\Desktop\ada\midterm-sample\obj\count_values_demo.o
+[GENERATED SOURCE FILES]
+b__count_values_demo.ads
+b__count_values_demo.adb
+b__count_values_demo.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\midterm-sample\obj\
+-LC:\Users\Andrei\Desktop\ada\midterm-sample\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

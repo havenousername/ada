@@ -1,0 +1,7 @@
+main.adb:7:01: error: missing body for "FG"
+main.adb:9:01: warning: cannot instantiate "FG" before body seen [enabled by default]
+main.adb:9:01: warning: Program_Error will be raised at run time [enabled by default]
+main.adb:10:01: warning: cannot instantiate "FG" before body seen [enabled by default]
+main.adb:10:01: warning: Program_Error will be raised at run time [enabled by default]
+main.adb:12:26: error: "N1" is undefined
+main.adb:12:31: error: "N2" is undefined

@@ -1,0 +1,118 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U main_unit%b		main_unit.adb		7190c71a NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W character_bag%s	character_bag.ads	character_bag.ali
+W for_all%s		for_all.adb		for_all.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-comlin.ads		20210520051128 4aa66568 ada.command_line%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D bags.ads		20211101202004 8b8bc7d0 bags%s
+D character_bag.ads	20211014194822 fe040e6c character_bag%s
+D for_all.ads		20211102190834 8d3b6a1d for_all%s
+D for_all.adb		20211014221824 b43abc32 for_all%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main_unit.adb		20211101204252 e6fd136e main_unit%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main_unit standard 7 11 none]
+G r s bag [main_unit standard 7 11 none] [bagIP character_bag 15 9 2_1]
+G r i none [main_unit standard 7 11 none] [for_all standard 6 11 none]
+G r c none [main_unit standard 7 11 none] [add character_bag 6 14 2_1]
+G r c none [main_unit standard 7 11 none] [multiplicity character_bag 7 13 2_1]
+G r c none [main_unit standard 7 11 none] [remove_duplicates character_bag 9 14 2_1]
+G r c none [main_unit standard 7 11 none] [multiplicity_count character_bag 10 13 2_1]
+X 1 ada.ads
+16K9*Ada 20e8 18|2r6 2r24 5r5 9r23 41r16 43r32
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 18|2w10 9r27 41r20 43r36
+39V13*Argument_Count{natural} 18|9s40 41s33
+52V13*Argument{string} 18|43s49
+X 10 a-textio.ads
+58K13*Text_IO 725e16 18|2w28 5r9
+262U14*New_Line 18|59s4 63s4
+463U14*Put 18|32s7
+506U14*Put_Line 18|53s7 57s4 61s4 65s4
+X 12 bags.ads
+4R9*Bag 18|8r64[13|2] 12r61[13|2] 14r75[13|2] 17r60[13|2] 19r53[13|2] 22r65[13|2]
+. 26r64[13|2] 37r57[13|2] 38r65[13|2] 39r71[13|2] 46r44[13|2]
+6U14*Add 18|46s26[13|2]
+7V13*Multiplicity{natural} 18|26s37[13|2]
+9U14*Remove_Duplicates 18|19s21[13|2]
+10V13*Multiplicity_Count{natural} 18|14s42[13|2]
+X 13 character_bag.ads
+2K9*character_bag[12|3] 18|1w6 8r50 12r47 14r28 14r61 17r46 19r7 19r39 22r51
+. 26r23 26r50 37r43 38r51 39r57 46r12 46r30
+X 14 for_all.ads
+6u11*for_all 18|3w6 37r35 38r43 39r49
+X 18 main_unit.adb
+7U11*main_unit 7b11 66l5 66t14
+8A9 BagArray(12|4R9[13|2])<integer> 9r11 37r72 38r80 39r86
+9a4 B_Arr{8A9} 46m48 46r48 52r7 57r59 58m32 58r32 60m26 60r26 61r58 62m32
+. 62r32 64m18 64r18
+10i4 Count_M{natural} 14m7 14r18 65r57
+12U14 count_multiplicity 12b14 12=33 15t7 37r82
+12r33 B_Bag{12|4R9[13|2]} 14r79
+17U14 remove_duplicates 17b14 17=32 20t7 38r90
+17r32 B_Bag{12|4R9[13|2]} 19m57 19r57
+22U14 print_bag_multiplicity 22b14 22=37 33t7 39r96
+22r37 B_Bag{12|4R9[13|2]} 26r68
+23i7 sum{natural} 26m10 26r17 32r25
+25e11 I{character} 26r76
+37U14 count_for_all[14|6] 15|1b11 18|64s4
+38U14 remove_duplicates_all[14|6] 15|1b11 18|60s4
+39U14 print_all_bags_multiplicity[14|6] 15|1b11 18|58s4 62s4
+41i8 I{integer} 43r58 46r54
+43a10 temp_value{string} 45r19 46r59
+45i14 J{integer} 46r70
+

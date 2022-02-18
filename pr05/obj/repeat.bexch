@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__repeat.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\pr05\practice5.gpr
+20211008074236 3c3c07d241854e15f79e4f2416672021
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\pr05\obj\lines.o
+C:\Users\Andrei\Desktop\ada\pr05\obj\repeat.o
+[GENERATED SOURCE FILES]
+b__repeat.ads
+b__repeat.adb
+b__repeat.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\pr05\obj\
+-LC:\Users\Andrei\Desktop\ada\pr05\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

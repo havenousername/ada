@@ -1,0 +1,31 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U replace_g%b		replace_g.adb		c7cb861d NE OO SU GE IL
+
+U replace_g%s		replace_g.ads		e4bbd420 BN EE NE OO GE IL
+
+D replace_g.ads		20211021184724 e4bbd420 replace_g%s
+D replace_g.adb		20211021184840 2370523d replace_g%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [replace_g standard 6 11 none]
+X 1 replace_g.ads
+2+9 Elem 4r44 5r45 6r55 2|1r55
+3E9 Index 4r25
+4A9 RArray(2+9)<3E9> 6r38 2|1r38
+5U19 replace_pattern 5=35 2|5s10
+5*35 E{2+9}
+6u11*replace_g 6=21 6>46 2|1b11 8l5 8t14
+6*21 R_Target{4A9} 2|1b21 3r13 4r10 5m26 5r26
+6*46 Pattern{2+9} 2|1b46 4r24
+X 2 replace_g.adb
+3e8 I 4r19 5r35
+

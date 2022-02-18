@@ -1,0 +1,1 @@
+main.adb:40:51: warning: "Int_Arr" may be referenced before it has a value [enabled by default]

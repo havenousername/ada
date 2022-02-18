@@ -1,0 +1,25 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U lcm%b			lcm.adb			f513101a NE OO SU IL
+W gcd%b			gcd.adb			gcd.ali
+
+D gcd.adb		20211008071958 4d6c7fc2 gcd%b
+D lcm.adb		20211008073306 b87f6fd8 lcm%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [lcm standard 3 10 none]
+G r c none [lcm standard 3 10 none] [gcd standard 1 10 none]
+X 1 gcd.adb
+1V10*gcd{positive} 2|1w6 5s21
+X 2 lcm.adb
+3V10*lcm{positive} 3b10 3>14 3>17 6l5 6t8
+3i14 A{positive} 5r12 5r25
+3i17 B{positive} 5r16 5r28
+

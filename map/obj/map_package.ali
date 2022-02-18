@@ -1,0 +1,219 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+
+U map_package%b		map_package.adb		ead9d461 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+Z ada.text_io.integer_aux%s
+Z ada.text_io.integer_io%s
+W system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_biu%s	s-imgbiu.ads		s-imgbiu.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.img_llb%s	s-imgllb.ads		s-imgllb.ali
+Z system.img_lli%s	s-imglli.ads		s-imglli.ali
+Z system.img_lllb%s	s-imglllb.ads		s-imglllb.ali
+Z system.img_llli%s	s-imgllli.ads		s-imgllli.ali
+Z system.img_lllw%s	s-imglllw.ads		s-imglllw.ali
+Z system.img_llw%s	s-imgllw.ads		s-imgllw.ali
+Z system.img_wiu%s	s-imgwiu.ads		s-imgwiu.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+Z system.val_lli%s	s-vallli.ads		s-vallli.ali
+Z system.val_llli%s	s-valllli.ads		s-valllli.ali
+
+U map_package%s		map_package.ads		62ff2d08 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tigeau.ads		20210520051130 e643cdf3 ada.text_io.generic_aux%s
+D a-tiinau.ads		20210520051130 1c79f78d ada.text_io.integer_aux%s
+D a-tiinau.adb		20210520051130 89004916 ada.text_io.integer_aux%b
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-tiinio.adb		20210520051130 b79731f4 ada.text_io.integer_io%b
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D map_package.ads	20211102194608 62ff2d08 map_package%s
+D map_package.adb	20211102194608 26d22c04 map_package%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imageb.ads		20210520051134 3953e0e6 system.image_b%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imagew.ads		20210520051134 9d2dd267 system.image_w%s
+D s-imgbiu.ads		20210520051134 0a8e1c41 system.img_biu%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-imgllb.ads		20210520051134 47d0db9f system.img_llb%s
+D s-imglli.ads		20210520051134 3723d9ff system.img_lli%s
+D s-imglllb.ads		20210520051134 30212eed system.img_lllb%s
+D s-imgllli.ads		20210520051134 5cf3dc07 system.img_llli%s
+D s-imglllw.ads		20210520051134 9e2b0560 system.img_lllw%s
+D s-imgllw.ads		20210520051134 bf9c9c15 system.img_llw%s
+D s-imgwiu.ads		20210520051134 912a95f2 system.img_wiu%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-valint.ads		20210520051134 e7fcadb7 system.val_int%s
+D s-vallli.ads		20210520051134 0767e6f3 system.val_lli%s
+D s-valllli.ads		20210520051134 f758e795 system.val_llli%s
+D s-vallllu.ads		20210520051134 87566fa4 system.val_lllu%s
+D s-valllu.ads		20210520051134 660d930f system.val_llu%s
+D s-valuns.ads		20210520051134 dac7b45d system.val_uns%s
+D s-valuei.ads		20210520051134 978dd0a6 system.value_i%s
+D s-valueu.ads		20210520051134 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [size map_package 6 13 none]
+G c Z s b [max_size map_package 7 13 none]
+G c Z s b [is_empty map_package 8 13 none]
+G c Z s b [does_key_exist map_package 9 13 none]
+G c Z s b [first_key map_package 10 13 none]
+G c Z s b [last_key map_package 11 13 none]
+G c Z s b [find_value map_package 12 13 none]
+G c Z s b [count_value map_package 13 13 none]
+G c Z s b [insert map_package 14 14 none]
+G c Z s b [erase map_package 15 14 none]
+G c Z s b [remove map_package 16 14 none]
+G c Z s b [replace map_package 18 14 none]
+G c Z s b [clear map_package 19 14 none]
+G c Z s b [print_map map_package 20 14 none]
+G c Z s s [tarrayIP map_package 23 9 none]
+G c Z s s [mapIP map_package 24 9 none]
+G c Z b b [get map_package__int_io 51 14 5_4]
+G c Z b b [get map_package__int_io 59 14 5_4]
+G c Z b b [put map_package__int_io 68 14 5_4]
+G c Z b b [put map_package__int_io 80 14 5_4]
+G c Z b b [get map_package__int_io 90 14 5_4]
+G c Z b b [put map_package__int_io 97 14 5_4]
+G c Z b b [get map_package__int_io__aux_int 52 14 48_4_5_4]
+G c Z b b [gets map_package__int_io__aux_int 57 14 48_4_5_4]
+G c Z b b [put map_package__int_io__aux_int 62 14 48_4_5_4]
+G c Z b b [puts map_package__int_io__aux_int 68 14 48_4_5_4]
+G c Z b b [get map_package__int_io__aux_lli 52 14 56_4_5_4]
+G c Z b b [gets map_package__int_io__aux_lli 57 14 56_4_5_4]
+G c Z b b [put map_package__int_io__aux_lli 62 14 56_4_5_4]
+G c Z b b [puts map_package__int_io__aux_lli 68 14 56_4_5_4]
+G c Z b b [get map_package__int_io__aux_llli 52 14 64_4_5_4]
+G c Z b b [gets map_package__int_io__aux_llli 57 14 64_4_5_4]
+G c Z b b [put map_package__int_io__aux_llli 62 14 64_4_5_4]
+G c Z b b [puts map_package__int_io__aux_llli 68 14 64_4_5_4]
+X 1 ada.ads
+16K9*Ada 20e8 19|1r6 2r5 5r26
+X 9 a-textio.ads
+58K13*Text_IO 725e16 19|1w10 2r9 5r30
+262U14*New_Line 19|175s10
+463U14*Put 19|170s10 172s10 173s10
+506U14*Put_Line 19|95s10 118s10 165s10
+X 13 a-tiinio.ads
+46k21*Integer_IO 108e27 19|5r38
+80U14 Put 19|171s10[5] 174s10[5]
+X 18 map_package.ads
+1K9*map_package 23E9 30l5 30e16 19|4b14 180l5 180t16
+2I12*Length{positive} 4r18 7r37 24r18 19|12r36
+4R9*Map 4d13 6r21 7r25 8r26 9r32 10r26 11r25 12r27 13r28 14r31 15r30 16r31
+. 18r32 19r30 20r30 24c9 29e17 19|7r21 12r24 17r26 27r31 37r26 46r25 54r27
+. 65r28 77r31 78r29 104r32 105r29 125r30 139r31 157r30 162r30
+4i13 Max{2I12} 24r13 26r25 27r27
+6V13*size{natural} 6>18 19|7b13 10l8 10t12
+6r18 M{4R9} 19|7b18 9r14
+7V13*max_size{2I12} 7>22 19|12b12 15l8 15t16 90s23
+7r22 M{4R9} 19|12b21 14r14
+8V13*is_Empty{boolean} 8>23 19|17b13 24l8 24t16
+8r23 M{4R9} 19|17b23 19r10
+9V13*does_Key_Exist{boolean} 9>29 9>37 19|27b12 35l8 35t22
+9r29 M{4R9} 19|27b28 29r19 30r13
+9i37 key{integer} 19|27b36 30r24
+10V13*first_key{integer} 10>23 19|37b13 44l8 44t17
+10r23 M{4R9} 19|37b23 39r9 43r14
+11V13*last_key{integer} 11>22 19|46b13 52l8 52t16
+11r22 M{4R9} 19|46b22 48r10 51r14 51r20
+12V13*find_value{integer} 12>24 12>32 19|54b13 63l8 63t18
+12r24 M{4R9} 19|54b24 56r19 57r13 58r20
+12i32 key{integer} 19|54b32 57r24
+13V13*count_value{integer} 13>25 13>33 19|65b13 75l8 75t19
+13r25 M{4R9} 19|65b25 68r19 69r13
+13i33 value{integer} 19|65b33 69r26
+14U14*insert 14=21 14>36 14>41 19|77b14 102l8 102t14
+14r21 M{4R9} 19|77b21 88r35 90r10 90r32 98m10 98r23 99m10 99r16 100m10 100r18
+14i36 key{integer} 19|77b36 88r38 95r43 99r30
+14i41 value{integer} 19|77b41 100r32
+15U14*erase 15=20 15>35 19|125b14 137l8 137t13 145s13
+15r20 M{4R9} 19|125b20 127r19 128r13 129m13 129r26 130r25 131m16 131r28 132m16
+. 132r30
+15i35 key{integer} 19|125b35 128r24
+16U14*remove 16=21 16>36 16>52 19|139b14 155l8 155t14
+16r21 M{4R9} 19|139b21 143r18 144r13 145m19 145r22
+16i36 value{integer} 19|139b36 144r26
+16b52 all_occurrences{boolean} 19|139b52 146r20
+18U14*replace 18=22 18>37 18>42 19|104b14 122l8 122t15
+18r22 M{4R9} 19|104b22 115r35 120m10
+18i37 key{integer} 19|104b37 115r38 118r43
+18i42 value{integer} 19|104b42 120r28
+19U14*clear 19=20 19|157b14 160l8 160t13
+19r20 M{4R9} 19|157b20 159m6
+20U14*print_Map 20>24 19|162b14 178l8 178t17
+20r24 M{4R9} 19|162b24 164r10 169r19 171r14 174r14
+23A9 TArray(integer)<integer> 26r15 27r17
+26a10*Key{23A9} 19|14r16 30r15 43r16 51r16 57r15 81r18 99m12 108r18 128r15
+. 131m18 131r30 145r24 171r16
+27a10*Value{23A9} 19|58r22 69r15 100m12 120m12 132m18 132r32 144r15 174r16
+28i10*Pointer{natural} 19|9r16 19r12 29r21 39r11 48r12 51r22 56r21 68r21
+. 80r24 90r12 98m12 98r25 99r18 100r20 107r24 127r21 129m15 129r28 130r27
+. 143r20 159m8 164r12 169r21
+X 19 map_package.adb
+5K12 Int_IO[13|46] 6r8
+29i11 I{integer} 30r19
+56i11 I{integer} 57r19 58r28
+66i7 Counter{natural} 70m13 70r24 74r14
+68i11 I{integer} 69r21
+78V16 key_Index{natural} 78b16 78>26 78>34 87l11 87t20 88s25
+78r26 M{18|4R9} 80r22 81r16
+78i34 key{integer} 81r27
+80i14 I{integer} 81r22 82r23
+88i7 Index{natural} 94r10
+105V16 key_Index{natural} 105b16 105>26 105>34 114l11 114t20 115s25
+105r26 M{18|4R9} 107r22 108r16
+105i34 key{integer} 108r27
+107i14 I{integer} 108r22 109r23
+115i7 Index{natural} 117r10 120r18
+127i11 I{integer} 128r19 130r22
+130i17 J{integer} 131r22 131r34 132r24 132r38
+140i7 I{positive} 142m7 143r13 144r21 145r28 149m16 152m13 152r18
+169i11 I{integer} 171r20 174r22
+

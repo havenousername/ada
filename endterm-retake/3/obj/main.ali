@@ -1,0 +1,192 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U main%b		main.adb		63622d46 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W tools%s		tools.adb		tools.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-calend.ads		20210520051128 474d9720 ada.calendar%s
+D a-caldel.ads		20210520051128 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nudira.ads		20210520051130 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20210520051130 0bfd6ec4 ada.numerics.discrete_random%b
+D a-nuflra.ads		20210520051130 4056ab7a ada.numerics.float_random%s
+D a-reatim.ads		20210520051128 0240fc73 ada.real_time%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20220110173818 87b8fb07 main%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-conca4.ads		20210520051132 7e642b20 system.concat_4%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-rannum.ads		20210520051134 c3978523 system.random_numbers%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taprop.ads		20210520051128 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20210520051128 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20210520051128 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D tools.ads		20220110112556 56a7b78c tools%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 7 11 none]
+G r p none [main standard 7 11 none] [init tools__randomize 6 17 none]
+G r o none [main standard 7 11 none] [timing tools__randomize 7 13 none]
+G r p none [main standard 7 11 none] [print tools__printer 18 17 none]
+X 1 ada.ads
+16K9*Ada 20e8 23|2r6 2r36 2r50 4r6 4r25 5r5
+X 2 a-calend.ads
+36K13*Calendar 413e17 23|2w40
+X 7 a-numeri.ads
+16K13*Numerics 35e17 23|2r10
+X 8 a-nudira.ads
+44k22*Discrete_Random 81e33 23|2w19
+X 11 a-reatim.ads
+39K13*Real_Time 185e18 23|4w10 4r29
+49O9*Time<duration> 23|23r19 24r17
+54O9*Time_Span<duration> 23|25r20
+58o4*Time_Span_Unit{54O9} 23|46r27
+61V13*Clock{49O9} 23|28s21 43s19 64s22
+71V14*"-"{54O9} 23|44s31 65s34
+89V14*"*"{54O9} 23|46s42 46s54
+101V14*"<"{boolean} 23|46r25
+X 17 a-textio.ads
+58K13*Text_IO 725e16 23|2w54 5r9
+X 23 main.adb
+7U11*Main 7b11 136l5 136t9
+8E9 Vaccine 8e56 10r26 18r22 48r36 73r41 81r87 83r91 85r79 87r79 98r87 100r82
+. 102r82 104r82 117r9
+8n21 Pfizer{8E9} 22r33 49r26 80r18 85r93 97r21 102r96 124r17
+8n28 Sinopharm{8E9} 22r46 51r29 81r101 82r21 87r93 98r101 99r24 104r96 126r17
+8n39 Sputnik{8E9} 22r62 53r29 84r21 101r24 128r17
+8n48 Janssen{8E9} 22r76 83r105 100r96 130r17
+9t9 Hostipal 13b14 70l8 70t16 79r10 96r13
+10Y13 vaccinate 10>23 48b23 60l20 60t29 79s19 96s22
+10e23 V{8E9} 49r22 51r25 53r25
+14o7 timeout{duration} 40m30 41r13
+15o7 sizeOfVaccine{duration} 31m33 32r13
+16R13 Map_Vaccine 20e23 21r50
+18e16 name{8E9}
+19i16 count{natural} 33m28 35m28 50m37 50r61 52m37 52r61 54m37 54r61 56m38
+. 56r62
+21A12 V_Array(16R13)<integer> 22r20
+22a7 Vaccine_Arr{21A12} 29r16 33m13 35m13 50m22 50r46 52m22 52r46 54m22 54r46
+. 56m23 56r47
+23o7 start_time{11|49O9} 28m7 44r33 65r36
+24o7 mid_time{11|49O9} 43m7 44r22 64m10 65r25
+25o7 time_passed{11|54O9} 44m7 46r13 65m10
+26i7 capacity{natural} 47r22
+29i11 i{integer} 33r25 35r25
+48e33 V{8E9}
+72P9 PString(string) 73r28
+73T14 Patient 73d22 73d37 75b14 112l8 112t15 114r29 133r26
+73p22 Name{72P9} 81r48 83r52 85r40 87r40 98r48 100r43 102r43 104r43 108r42
+73e37 PV{8E9} 79r29 80r13 82r16 84r16 96r32 97r16 99r19 101r19
+76b7 gotVaccine{boolean} 89m10 94r14 106m13
+114P10 PPatient(73T14) 115r31
+115a4 Patients(114P10) 120r13 133m7
+117e4 V_V{8E9} 124m10 126m10 128m10 130m10 133r56
+118o4 random_vaccine{duration} 122m30 123r10 125r13 127r13
+120i8 I{integer} 133r16 133r46
+X 42 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 59 tools.ads
+4K9*Tools 23|1w6 3r5 30r10 31r10 39r7 40r7 121r7 122r7 59|20e10
+5w14*Randomize 23|30r16 31r16 39r13 40r13 121r13 122r13
+6U17 Init 23|30s26 39s23 121s23
+7Y13 Timing 23|31s26 40s23 122s23
+17w14*Printer 23|59r19 69r13 81r21 83r25 85r13 87r13 98r21 100r16 102r16
+. 104r16 108r15
+18U17 Print 23|59s27 69s21 81s29 83s33 85s21 87s21 98s29 100s24 102s24 104s24
+. 108s23
+

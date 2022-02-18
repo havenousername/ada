@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__monitor.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\task02\task2.gpr
+20211126073814 38284e6421d91c3bad387e38bfe8f7cf
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\task02\obj\monitor.o
+[GENERATED SOURCE FILES]
+b__monitor.ads
+b__monitor.adb
+b__monitor.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\task02\obj\
+-LC:\Users\Andrei\Desktop\ada\task02\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

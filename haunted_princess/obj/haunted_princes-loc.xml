@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2021\bin\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\task02\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\task02\src\monitor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 27" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\task02\src\monitor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\task02\src\pub3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 95" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\task02\src\pub3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\task02\src\trafficlight.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\hauntedhouse.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 23" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\hauntedhouse.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\hauntedhouse.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 34" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\hauntedhouse.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\tools.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\tools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\hauntedhouse.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\hauntedhouse.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\hauntedhouse.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 23" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\hauntedhouse.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\princess.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 52" line=" 11" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\princess.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 3" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\princess.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 11" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 9" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 7" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 9" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\tools.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 52" line=" 11" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\princess.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 3" line=" 2" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\princess.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 20" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\haunted_princess\haunted_princes.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\haunted_princess\src\princess.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

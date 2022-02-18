@@ -1,0 +1,32 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U count_values%b	count_values.adb	a810b670 NE OO SU GE
+
+U count_values%s	count_values.ads	0f22fcca BN EE NE OO GE IL
+
+D count_values.ads	20211019225008 0f22fcca count_values%s
+D count_values.adb	20211019224928 a7324aba count_values%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [count_values standard 6 10 none]
+X 1 count_values.ads
+2E9 Element 4r58 5r32
+3E9 Index 4r23 4r39
+4A9 Grid(2E9)<3E9><3E9> 6r26 2|1r26
+5V18 predicate{boolean} 5>28 2|6s13
+5*28 El{2E9}
+6v10*Count_Values 6>23 2|1b10 12l5 12t17
+6*23 G{4A9} 2|1b23 4r13 5r16 6r23
+X 2 count_values.adb
+2i4 Count_Nests{natural} 7m13 7r28 11r11
+4e8 I 6r25
+5e11 J 6r28
+

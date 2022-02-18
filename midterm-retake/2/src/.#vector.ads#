@@ -1,0 +1,5 @@
+generic 
+   type Elem is private;
+package Vector is
+ 
+end Vector;

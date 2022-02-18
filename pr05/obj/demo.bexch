@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__demo.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\pr05\practice5.gpr
+20211008073058 02800c249fa842394f21cab3f30f97a4
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\pr05\obj\gcd.o
+C:\Users\Andrei\Desktop\ada\pr05\obj\lcm.o
+C:\Users\Andrei\Desktop\ada\pr05\obj\setq.o
+C:\Users\Andrei\Desktop\ada\pr05\obj\demo.o
+[GENERATED SOURCE FILES]
+b__demo.ads
+b__demo.adb
+b__demo.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\pr05\obj\
+-LC:\Users\Andrei\Desktop\ada\pr05\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

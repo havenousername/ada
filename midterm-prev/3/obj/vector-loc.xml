@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\3\vector.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\count_grid.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\count_grid.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\count_grid_demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 10" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\count_grid_demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\count_values.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\count_values.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\count_values_demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\migrate.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\migrate.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\migrate_demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\more_than.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\more_than.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-sample\src\more_than_demo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 39" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 6" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 56" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 43" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 43" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 88" line=" 33" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 42" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 54" line=" 2" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 13" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 94" line=" 36" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 23" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 24" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 51" line=" 23" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 36" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 23" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 24" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 71" line=" 29" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 36" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 71" line=" 29" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\3\src\vector_generic.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\midterm-prev\3\vector.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\3\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\midterm-prev\3\vector.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\3\src\vector_generic.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 8" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\midterm-prev\3\vector.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\3\src\vector_generic.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\midterm-prev\3\vector.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\3\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\midterm-prev\3\vector.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\3\src\vector_generic.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\midterm-prev\3\vector.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\midterm-prev\3\src\vector_generic.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

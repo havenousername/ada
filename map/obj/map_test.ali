@@ -1,0 +1,143 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U map_test%b		map_test.adb		81150db6 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W map_package%s		map_package.adb		map_package.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D map_package.ads	20211102194608 62ff2d08 map_package%s
+D map_test.adb		20211102195244 4d1ef5d3 map_test%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [map_test standard 6 11 none]
+G r s map [map_test standard 6 11 none] [mapIP map_package 24 9 none]
+G r c none [map_test standard 6 11 none] [clear map_package 19 14 none]
+G r c none [map_test standard 6 11 none] [size map_package 6 13 none]
+G r c none [map_test standard 6 11 none] [insert map_package 14 14 none]
+G r c none [map_test standard 6 11 none] [print_map map_package 20 14 none]
+G r c none [map_test standard 6 11 none] [max_size map_package 7 13 none]
+G r c none [map_test standard 6 11 none] [is_empty map_package 8 13 none]
+G r c none [map_test standard 6 11 none] [erase map_package 15 14 none]
+G r c none [map_test standard 6 11 none] [does_key_exist map_package 9 13 none]
+G r c none [map_test standard 6 11 none] [first_key map_package 10 13 none]
+G r c none [map_test standard 6 11 none] [find_value map_package 12 13 none]
+G r c none [map_test standard 6 11 none] [count_value map_package 13 13 none]
+G r c none [map_test standard 6 11 none] [replace map_package 18 14 none]
+G r c none [map_test standard 6 11 none] [last_key map_package 11 13 none]
+G r c none [map_test standard 6 11 none] [remove map_package 16 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 2r5
+X 9 a-textio.ads
+58K13*Text_IO 725e16 14|1w10 2r9
+262U14*New_Line 14|11s7 14s7 16s7 37s7
+463U14*Put 14|13s7
+506U14*Put_Line 14|12s7 15s7 38s7 41s7
+X 13 map_package.ads
+1K9*map_package 30e16 14|1w19 2r18
+2I12*Length{positive}
+4R9*Map 29e17 14|7r11 46r14 47r15
+6V13*size{natural} 14|23s63 26s63 30s63 122s67 125s73 129s113 160s88 165s66
+. 167s85 169s68 195s75 198s94
+7V13*max_size{2I12} 14|49s57 50s58
+8V13*is_Empty{boolean} 14|56s56 58s57 60s56
+9V13*does_Key_Exist{boolean} 14|67s61 69s65 192s90
+10V13*first_key{integer} 14|75s56 78s55 168s20
+11V13*last_key{integer} 14|84s55 87s54 89s54 166s20 167s105
+12V13*find_value{integer} 14|96s57 99s57 100s57 102s57 132s103 140s82 151s120
+13V13*count_value{integer} 14|109s57 110s57 112s57 115s57
+14U14*insert 14|24s7 28s7 29s7 40s7 57s7 66s7 76s7 77s7 85s7 86s7 97s7 98s7
+. 101s7 108s7 111s7 113s7 114s7 121s7 123s7 124s7 126s7 127s7 128s7 131s7
+. 138s7 147s7 161s7 162s7 163s7 180s13 193s7
+15U14*erase 14|59s7 68s7 88s7 159s7 164s7 166s7 168s7
+16U14*remove 14|191s7 194s7 197s7
+18U14*replace 14|139s7 142s7 145s7 148s7 149s7 150s7
+19U14*clear 14|22s7 36s7 55s7 65s7 74s7 83s7 95s7 107s7 120s7 137s7 158s7
+. 175s7
+20U14*print_Map 14|39s7 42s7 184s7
+X 14 map_test.adb
+6U11*map_test 6b11 216l5 216t13
+7r4 T_Map{13|4R9} 22m13 22r13 23r68 24m14 24r14 26r68 28m14 28r14 29m14 29r14
+. 30r68 36m13 36r13 39r17 40m14 40r14 42r17 55m13 55r13 56r65 57m14 57r14
+. 58r66 59m13 59r13 60r65 65m13 65r13 66m14 66r14 67r76 68m13 68r13 69r80
+. 74m13 74r13 75r66 76m14 76r14 77m14 77r14 78r65 83m13 83r13 84r64 85m14
+. 85r14 86m14 86r14 87r63 88m13 88r13 89r63 95m13 95r13 96r68 97m14 97r14
+. 98m14 98r14 99r68 100r68 101m14 101r14 102r68 107m13 107r13 108m14 108r14
+. 109r69 110r69 111m14 111r14 112r69 113m14 113r14 114m14 114r14 115r69 120m13
+. 120r13 121m14 121r14 122r72 123m14 123r14 124m14 124r14 125r78 126m14 126r14
+. 127m14 127r14 128m14 128r14 129r118 131m14 131r14 132r114 137m13 137r13
+. 138m14 138r14 139m15 139r15 140r93 142m15 142r15 145m15 145r15 147m14 147r14
+. 148m15 148r15 149m15 149r15 150m15 150r15 151r131 158m13 158r13 159m13
+. 159r13 160r93 161m14 161r14 162m14 162r14 163m14 163r14 164m13 164r13 165r71
+. 166m13 166r13 166r29 167r90 167r114 168m13 168r13 168r30 169r73 175m13
+. 175r13 180m20 180r20 184r17 191m14 191r14 192r105 193m14 193r14 194m14
+. 194r14 195r80 197m14 197r14 198r99
+9U14 create_test 9b14 9>26 9>45 9>63 17t7 23s7 26s7 30s7 49s7 50s7 56s7 58s7
+. 60s7 67s7 69s7 75s7 78s7 84s7 87s7 89s7 96s7 99s7 100s7 102s7 109s7 110s7
+. 112s7 115s7 122s7 125s7 129s7 132s7 140s7 143s7 151s7 160s7 165s7 167s7
+. 169s7 192s7 195s7 198s7
+9a26 test_name{string} 12r16 15r25
+9a45 expected{string} 12r36
+9b63 got{boolean} 13r25
+20U14 test_size 20b14 31l8 31t17 204s4
+33U14 test_print_clear 33b14 43l8 43t24 205s4
+45U14 test_max_size 45b14 51t7 206s4
+46r7 N_Map{13|4R9} 49r66
+47r7 N_Map1{13|4R9} 50r67
+53U14 test_is_empty 53b14 61l8 61t21 207s4
+63U14 test_does_key_exist 63b14 70l8 70t27 208s4
+72U14 test_first_key 72b14 79l8 79t22 209s4
+81U14 test_last_key 81b14 90l8 90t21
+93U14 test_find_value 93b14 103l8 103t23 210s4
+105U14 test_count_value 105b14 116l8 116t24 211s4
+118U14 test_insert 118b14 133l8 133t19 212s4
+135U14 test_replace 135b14 152l8 152t20 213s4
+156U14 test_erase 156b14 170l8 170t18 214s4
+173U14 test_remove_insert 173b14 200l8 200t26 215s4
+178i11 I{integer} 179r22 180r27 180r34 180r36
+179i14 J{integer} 180r31
+

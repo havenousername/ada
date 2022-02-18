@@ -1,0 +1,1 @@
+main.adb:144:04: warning: variable "random_hospital" is never read and never assigned [-gnatwv]

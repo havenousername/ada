@@ -1,0 +1,20 @@
+generic 
+   type Elem is (<>);
+package Vector_Gen is
+   subtype Length is Positive range 1..10000;
+   type Vector(Max: Length := 100) is limited private;
+   procedure insert(V: in out vector; item: Elem);
+   procedure pop(V: in out Vector);
+   function size(V: in Vector) return Natural;
+   procedure print_vector(V: in Vector);
+private
+   type TArray is array(Positive range<>) of Elem;
+   
+      type Vector (Max: Length := 100) is 
+         record 
+            Value: TArray(1..Max);
+            Pointer: Natural := 0;
+         end record;
+      
+       
+end Vector_Gen;

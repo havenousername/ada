@@ -1,0 +1,2 @@
+map-test.adb:1:14: error: missing "is"
+map-test.adb:6:01: error: "end Map;" expected

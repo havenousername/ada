@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 146" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\map\map.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\map\src\map_test.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 8" line=" 22" >
+      <vfs_project>C:\Users\Andrei\Desktop\ada\map\map.gpr</vfs_project>
+      <vfs_file>C:\Users\Andrei\Desktop\ada\map\src\map_package.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

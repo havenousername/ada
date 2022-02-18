@@ -1,0 +1,29 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U decode%b		decode.adb		5dff0c5e NE OO SU IL
+W for_all%s		for_all.adb		for_all.ali
+
+D decode.adb		20211014185626 9c0dfae8 decode%b
+D for_all.ads		20211015214104 c1f2f6b6 for_all%s
+D for_all.adb		20211014221824 b43abc32 for_all%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z b b [decode standard 3 11 none]
+G r i none [decode standard 3 11 none] [for_all standard 6 11 none]
+X 1 decode.adb
+3U11*decode 3b11 3=18 12l5 12t11
+3a18 S{string} 11m19
+4U14 letter_move_to_next 4b14 4=34 7l8 7t27 9r73
+4e34 Ch{character} 6m7 6r38
+9U14 string_for_all[2|6] 11s4 3|1b11
+X 2 for_all.ads
+6u11*for_all 1|1w6 9r36
+

@@ -1,0 +1,12 @@
+with hauntedhouse;
+
+task type Princess is
+   entry Ghost_Position(p: hauntedhouse.Position);
+end Princess;
+
+task body Princess is
+   type PPosition is new access Position;
+   pos: PPosition;
+begin
+   accept Ghost_Position(P: in hauntedhouse.Position) do pos := new Position'(p.
+end Princess;

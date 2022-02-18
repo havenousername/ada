@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__map_test.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\map\map.gpr
+20211008000054 0a0f2fa9270c71514b9fcf6be57d7db2
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\map\obj\map_package.o
+C:\Users\Andrei\Desktop\ada\map\obj\map_test.o
+[GENERATED SOURCE FILES]
+b__map_test.ads
+b__map_test.adb
+b__map_test.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\map\obj\
+-LC:\Users\Andrei\Desktop\ada\map\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

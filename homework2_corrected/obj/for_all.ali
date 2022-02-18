@@ -1,0 +1,30 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U for_all%b		for_all.adb		3901d62f NE OO SU GE IL
+
+U for_all%s		for_all.ads		8d3b6a1d BN EE NE OO GE IL
+
+D for_all.ads		20211102190834 8d3b6a1d for_all%s
+D for_all.adb		20211014221824 b43abc32 for_all%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [for_all standard 6 11 none]
+X 1 for_all.ads
+2+9 Elem 4r43 5r38
+3E9 Index 4r25
+4A9 Vector(2+9)<3E9> 6r29 2|1r29
+5U19 activity 5=28 2|4s7
+5*28 E{2+9}
+6u11*for_all 6=19 2|1b11 6l5 6t12
+6*19 V{4A9} 2|1b19 3r13 4m16 4r16
+X 2 for_all.adb
+3e8 I 4r18
+

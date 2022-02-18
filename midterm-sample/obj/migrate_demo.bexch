@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__migrate_demo.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-sample\sample.gpr
+20211019230450 4847b9a6461d3b9fc4e832dde58ad85c
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-sample\obj\migrate.o
+C:\Users\Andrei\Desktop\ada\midterm-sample\obj\migrate_demo.o
+[GENERATED SOURCE FILES]
+b__migrate_demo.ads
+b__migrate_demo.adb
+b__migrate_demo.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\midterm-sample\obj\
+-LC:\Users\Andrei\Desktop\ada\midterm-sample\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

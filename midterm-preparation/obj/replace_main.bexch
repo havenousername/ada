@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__replace_main.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-preparation\prep.gpr
+20211021183116 22a0b1f64af7e850f44426f2fd371d20
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\midterm-preparation\obj\replace_g.o
+C:\Users\Andrei\Desktop\ada\midterm-preparation\obj\replace_main.o
+[GENERATED SOURCE FILES]
+b__replace_main.ads
+b__replace_main.adb
+b__replace_main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\midterm-preparation\obj\
+-LC:\Users\Andrei\Desktop\ada\midterm-preparation\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

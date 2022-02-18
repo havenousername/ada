@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__shopsimulation.o
+[PROJECT FILES]
+C:\Users\Andrei\Desktop\ada\homework_3\default.gpr
+20211207001950 4eabf72075f1987b5deeff7c50fe19cc
+[BOUND OBJECT FILES]
+C:\Users\Andrei\Desktop\ada\homework_3\obj\shopsimulation.o
+[GENERATED SOURCE FILES]
+b__shopsimulation.ads
+b__shopsimulation.adb
+b__shopsimulation.ali
+[RESULTING OPTIONS]
+-LC:\Users\Andrei\Desktop\ada\homework_3\obj\
+-LC:\Users\Andrei\Desktop\ada\homework_3\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
